@@ -1,0 +1,19 @@
+---
+title: "Ode to the Exploratory Viz"
+subtitle: "Inspired to [Ode to Here](https://github.com/jennybc/here_here) by Jenny Bryan"
+author: "Otho Mantegazza"
+date: "12/4/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: "css/remark.css"
+    chakra: libs/remark-js-latest-min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+editor_options: 
+  chunk_output_type: console
+---
+
