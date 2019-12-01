@@ -1,5 +1,5 @@
 ---
-title: "Ode to the Exploratory Viz"
+title: "Ode to the .hand[FORGOTTEN] Exploratory Viz"
 subtitle: "Inspired to [Ode to Here](https://github.com/jennybc/here_here) by Jenny Bryan"
 author: "Otho Mantegazza"
 date: "12/4/2019"
@@ -17,3 +17,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+# 98.3% of Viz Die Before Reaching Social Media!
+
+<img src="img/arrow.svg" height="50" width="50" class="graphic1"></a>
+
+.hand[.note1[HE JUST MADE THAT UP]]

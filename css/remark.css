@@ -6,9 +6,12 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url('https://fonts.googleapis.com/css?family=Solway:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise&display=swap');
 
 body {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Solway', serif;
+  color: #000;
+  background-color: #fffded;
 }
 
 /*From default.css*/
@@ -93,9 +96,15 @@ th, td { padding: 5px; }
 
 .remark-slide-content h1 {
   font-size: 40px;
+  font-weight: 400;
+}
+
+.remark-slide-content {
+  background-color: #fffded;
 }
 
 /* Title slide ----------------------- */
+
 .title-slide {
   background-color: #fffded;
   text-shadow: none;
@@ -109,6 +118,12 @@ th, td { padding: 5px; }
   color: #000;
   text-align: left;
   margin-bottom: 20px;
+}
+
+.hand{
+  color: #235596;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-weight: 500;
 }
 
 .title-slide h2 {
@@ -139,54 +154,21 @@ th, td { padding: 5px; }
   font-size: 24px; 
 }
 
-/* Blue transition slide -------------------- */
-/* For tips and transiton */
-.blueblue {
-  background-image: linear-gradient(to right, #3A70DE, #9900FF)  ;
-  color: #E97E00;
-  font-family: 'Indie Flower', cursive;
+/* 98% -------------------------------------*/
+
+.graphic1 {
+  position: absolute;
+  left: 130px;
+  top: 105px
 }
 
-/* Big font */
-.big {
- font-size: 45px;
- color: #C0C8E7;
+.note1 {
+  font-size: 30px;
+  position: absolute;
+  left: 200px;
 }
 
-/* very big font */
-.verybig {
-  font-size: 82px;
-} 
 
-.orange {
-  color: #E97E00;
-}
-
-/* Scroll text vertically --------------------- */
-.scroller .remark-code {
- overflow-y: scroll;
-}
-
-/* Exercise ------------------------------------*/
-.exercise {
-  background-image: linear-gradient(to right, #ffe598, #ffcd43) ;
-  font-family: 'Indie Flower', cursive;
-}
-
-.exercise-title {
-  font-size: 82px;
-  color: #00aaff;
-}
-
-.exercise-body {
-  font-size: 45px;
-  color: rgb(87, 156, 182);
-}
-
-.exercise-body-small {
-  font-size: 32px;
-  color: rgb(87, 156, 182);
-}
 
 /* Code output -------------------------------------*/
 

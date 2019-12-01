@@ -4,6 +4,8 @@ library(tidyverse)
 
 # https://upload.wikimedia.org/wikipedia/en/3/38/You_Could_Have_It_So_Much_Better_%28Franz_Ferdinand_album_-_cover_art%29.png
 # https://cran.r-project.org/web/packages/imager/vignettes/gettingstarted.html
+# https://atm.amegroups.com/article/view/21039/html
+# https://cran.r-project.org/web/packages/qwraps2/vignettes/summary-statistics.html
 
 # ff <- imager::load.image("https://upload.wikimedia.org/wikipedia/en/3/38/You_Could_Have_It_So_Much_Better_%28Franz_Ferdinand_album_-_cover_art%29.png")
 ff <- load.image("https://i.imgur.com/yIeij.jpg")
