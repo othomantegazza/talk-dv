@@ -7,6 +7,10 @@ img_int
 # libs
 libs/*
 
+.DS_Store
+
+# Slides - temporary
+*.html
 
 # from https://raw.githubusercontent.com/github/gitignore/master/R.gitignore
 

@@ -16,10 +16,10 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Motivation
+# Admitting you Have a Problem
 
 .pull-left[
-.big[If you explore your data only with **tables**, we will pour cappuccino on your laptop!]
+.big[If you explore your data only with **tables**, we will pour cappuccino on your laptop...]
 ]
 
 
@@ -33,6 +33,16 @@ editor_options:
 
 ---
 
+# Boxplot
+
+---
+
+# Scatterplots and Trends
+
+
+
+---
+
 # 98.3% of Viz Die Before Reaching Social Media!
 
 <img src="img/arrow-left.svg" height="50" width="50" class="graphic1">
@@ -41,4 +51,4 @@ editor_options:
 
 ---
 
-
+# 
