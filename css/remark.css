@@ -95,12 +95,26 @@ th, td { padding: 5px; }
 /* Normal slide */
 
 .remark-slide-content h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 400;
 }
 
 .remark-slide-content {
   background-color: #fffded;
+  font-weight: 300;
+}
+
+.remark-slide-content .big {
+  font-size: 27px;
+}
+
+.remark-slide-content a {
+  color: #ff001e;
+}
+
+.remark-slide-content a:hover {
+  color: #ff001e;
+  border-bottom: 1px solid currentColor;
 }
 
 /* Title slide ----------------------- */
@@ -152,6 +166,24 @@ th, td { padding: 5px; }
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 24px; 
+}
+
+
+/* Motivation ------------------------------*/
+
+.note2 {
+  position: absolute;
+  left: 400px;
+  top: 430px;
+  width: 200px;
+  text-align: right;
+}
+
+.graphic2 {
+  position: absolute;
+  left: 580px;
+  top: 520px;
+  transform: rotate(0.5turn);
 }
 
 /* 98% -------------------------------------*/

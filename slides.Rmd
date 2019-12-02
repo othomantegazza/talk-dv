@@ -7,7 +7,6 @@ output:
   xaringan::moon_reader:
     lib_dir: libs
     css: "css/remark.css"
-    chakra: libs/remark-js-latest-min.js
     nature:
       highlightStyle: github
       highlightLines: true
@@ -17,8 +16,29 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Motivation
+
+.pull-left[
+.big[If you explore your data only with **tables**, we will pour cappuccino on your laptop!]
+]
+
+
+.pull-right[
+<img src="img/exploratory-table.png">
+]
+
+.hand[.note2[THIS TABLE IS ACTUALLY FROM A [VERY HELPFUL R PACKAGE](https://cran.r-project.org/web/packages/qwraps2/vignettes/summary-statistics.html)]]
+
+<img src="img/arrow-right.svg" height="50" width="50" class="graphic2">
+
+---
+
 # 98.3% of Viz Die Before Reaching Social Media!
 
-<img src="img/arrow.svg" height="50" width="50" class="graphic1"></a>
+<img src="img/arrow-left.svg" height="50" width="50" class="graphic1">
 
 .hand[.note1[HE JUST MADE THAT UP]]
+
+---
+
+
