@@ -1,4 +1,5 @@
 library(tidyverse)
+library(svglite)
 
 theme_set(theme_minimal())
 
@@ -45,4 +46,29 @@ p4 <-
   geom_point(size = .5,
              alpha = 1) 
 
-p4
+height <-  4.5
+width <- 9
+bg <- "#FFFFFF00"
+
+svglite(file = here::here("img/ch1.svg"),
+        width = width, height = height)
+p1 %>% print()
+dev.off()
+
+
+svglite(file = here::here("img/ch2.svg"),
+        width = width, height = height)
+p2 %>% print()
+dev.off()
+
+
+svglite(file = here::here("img/ch3.svg"),
+        width = width, height = height)
+p3 %>% print()
+dev.off()
+
+
+svglite(file = here::here("img/ch4.svg"),
+        width = width, height = height)
+p4 %>% print()
+dev.off()

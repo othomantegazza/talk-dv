@@ -39,6 +39,25 @@ editor_options:
 
 # Scatterplots and Trends
 
+<img src="img/ch1.svg" width = "1000px">
+
+---
+
+# Scatterplots and Trends
+
+<img src="img/ch2.svg" width = "1000px">
+
+---
+
+# Scatterplots and Trends
+
+<img src="img/ch3.svg" width = "1000px">
+
+---
+
+# Scatterplots and Trends
+
+<img src="img/ch4.svg" width = "1000px">
 
 
 ---
